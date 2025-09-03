@@ -9,7 +9,7 @@ namespace AuthService.Core
         private readonly Dictionary<string, IAuthMethod> _methods = new();
 
         private readonly List<IAuthUpdatable> _updatableMethods = new();
-        
+
         public void RegisterMethod(IAuthMethod method)
         {
             _methods[method.MethodId] = method;
@@ -41,6 +41,7 @@ namespace AuthService.Core
             {
                 return new AuthResponse { Success = false };
             }
+
             return await method.LinkAsync();
         }
 
