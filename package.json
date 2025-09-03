@@ -1,0 +1,23 @@
+{
+  "name": "com.bacnq.authservice",
+  "version": "1.0.0",
+  "displayName": "Auth Service",
+  "description": "A modular authentication service for Unity supporting multiple login methods (Firebase, Google, Apple, Guest, etc).",
+  "unity": "2022.3",
+  "author": {
+    "name": "BacNQ",
+    "email": "you@example.com",
+    "url": "https://github.com/bacnq"
+  },
+  "license": "MIT",
+  "keywords": [
+    "authentication",
+    "firebase",
+    "login",
+    "unity-package",
+    "auth",
+    "google",
+    "apple",
+    "modular"
+  ]
+}
